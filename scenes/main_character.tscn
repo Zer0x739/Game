@@ -119,19 +119,23 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ahger"]
-size = Vector2(10, 17)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_01d28"]
+radius = 25.0
+height = 86.0
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_fted5")
+jump_time_to_peak = 5.0
+jump_time_to_descent = 3.0
 
 [node name="Sprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-position = Vector2(0, -3)
+position = Vector2(0, -2.38419e-07)
+scale = Vector2(5, 5)
 sprite_frames = SubResource("SpriteFrames_d8ygq")
 autoplay = "default"
 frame_progress = 0.436983
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 0.5)
-shape = SubResource("RectangleShape2D_ahger")
+position = Vector2(0, 17)
+shape = SubResource("CapsuleShape2D_01d28")
