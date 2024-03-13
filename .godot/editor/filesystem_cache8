@@ -1,0 +1,14 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1710351949
+AnimationSheet.png::CompressedTexture2D::7266091918106707826::1710089576::1710089576::1::::<><>::
+background.png::CompressedTexture2D::279011266115638502::1710088462::1710088462::1::::<><>::
+icon.svg::CompressedTexture2D::5223139196050524340::1710088370::1710088383::1::::<><>::
+main.tscn::PackedScene::8971671568869721800::1710178998::0::1::::<><>::uid://d8fjlwki0n6m::::res://background.png<>uid://cuwqlvb3w5tn4::::res://tileset.png<>uid://dr31xa6nyf6h::::res://scenes/main_character.tscn
+tileset.png::CompressedTexture2D::6223026772191332403::1710088706::1710088706::1::::<><>::
+::res://assets/::1710351906
+space_tileset.png::CompressedTexture2D::3574302146521444479::1710351794::1710351949::1::::<><>::
+::res://scenes/::1710178771
+main_character.gd::GDScript::-1::1710178770::0::1::::<>CharacterBody2D<>::
+main_character.tscn::PackedScene::247408668635975593::1710178771::0::1::::<><>::res://scenes/main_character.gd<>uid://dbr0qb8mbgt6i::::res://AnimationSheet.png
+rigid_body_2d.gd::GDScript::-1::1710171022::0::1::::<>RigidBody2D<>::
+rigid_body_2d.tscn::PackedScene::6315891606833555007::1710171007::0::1::::<><>::
