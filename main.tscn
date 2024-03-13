@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://d027ecw8db4lg"]
+[gd_scene load_steps=7 format=3 uid="uid://d027ecw8db4lg"]
 
-[ext_resource type="Texture2D" uid="uid://d8fjlwki0n6m" path="res://background.png" id="1_tem4p"]
 [ext_resource type="Texture2D" uid="uid://cuwqlvb3w5tn4" path="res://tileset.png" id="2_nu8vc"]
 [ext_resource type="PackedScene" uid="uid://dr31xa6nyf6h" path="res://scenes/main_character.tscn" id="3_f5aj1"]
+[ext_resource type="Texture2D" uid="uid://dako1xp4fm02n" path="res://Nebula Red.png" id="3_wynne"]
+[ext_resource type="Texture2D" uid="uid://by4u0o82lg6kg" path="res://Stars Small_1.png" id="4_sp87j"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y5s6o"]
 texture = ExtResource("2_nu8vc")
@@ -203,29 +204,36 @@ sources/1 = SubResource("TileSetAtlasSource_y5s6o")
 
 [node name="Node" type="Node"]
 
-[node name="TextureRect" type="TextureRect" parent="."]
-texture_filter = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("1_tem4p")
-
 [node name="TileMap" type="TileMap" parent="."]
 texture_filter = 1
 tile_set = SubResource("TileSet_lkr3f")
 cell_quadrant_size = 32
 format = 2
-layer_0/tile_data = PackedInt32Array(1245184, 196609, 1, 1245185, 196609, 1, 1245186, 196609, 1, 1245187, 196609, 1, 1245188, 196609, 1, 1245189, 196609, 1, 1245190, 196609, 1, 1245191, 196609, 1, 1245192, 196609, 1, 1245193, 196609, 1, 1245194, 196609, 1, 1245195, 196609, 1, 1245196, 196609, 1, 1245197, 196609, 1, 1245198, 196609, 1, 1245199, 196609, 1, 1245200, 196609, 1, 1245201, 196609, 1, 1245202, 196609, 1, 1245203, 196609, 1, 1245204, 196609, 1, 1245205, 196609, 1, 1245206, 196609, 1, 1245207, 196609, 1, 1245208, 196609, 1, 1245209, 196609, 1, 1245210, 196609, 1, 1245211, 196609, 1, 1245212, 196609, 1, 1245213, 196609, 1, 1245214, 196609, 1, 1245215, 196609, 1, 1245216, 196609, 1, 1245217, 196609, 1, 1245218, 196609, 1, 1245219, 196609, 1, 1310755, 196609, 2, 1310754, 196609, 2, 1310753, 196609, 2, 1310752, 196609, 2, 1310751, 196609, 2, 1310750, 196609, 2, 1310749, 196609, 2, 1310748, 196609, 2, 1310747, 196609, 2, 1310746, 196609, 2, 1310745, 196609, 2, 1310744, 196609, 2, 1310743, 196609, 2, 1310742, 196609, 2, 1310741, 196609, 2, 1310740, 196609, 2, 1310739, 196609, 2, 1310738, 196609, 2, 1310737, 196609, 2, 1310736, 196609, 2, 1310735, 196609, 2, 1310734, 196609, 2, 1310733, 196609, 2, 1310732, 196609, 2, 1310731, 196609, 2, 1310730, 196609, 2, 1310729, 196609, 2, 1310728, 196609, 2, 1310727, 196609, 2, 1310726, 196609, 2, 1310725, 196609, 2, 1310724, 196609, 2, 1310723, 196609, 2, 1310722, 196609, 2, 1310721, 196609, 2, 1310720, 196609, 2, 1179654, 196609, 2, 1179655, 196609, 2, 1114119, 196609, 2, 1114118, 196609, 2, 1179653, 196609, 2, 1048585, 196609, 2, 1048586, 196609, 2, 1048587, 196609, 2)
+layer_0/tile_data = PackedInt32Array(1245184, 196609, 1, 1245185, 196609, 1, 1245186, 196609, 1, 1245187, 196609, 1, 1245188, 196609, 1, 1245189, 196609, 1, 1245190, 196609, 1, 1245191, 196609, 1, 1245192, 196609, 1, 1245193, 196609, 1, 1245194, 196609, 1, 1245195, 196609, 1, 1245196, 196609, 1, 1245197, 196609, 1, 1245198, 196609, 1, 1245199, 196609, 1, 1245200, 196609, 1, 1245201, 196609, 1, 1245202, 196609, 1, 1245203, 196609, 1, 1245204, 196609, 1, 1245205, 196609, 1, 1245206, 196609, 1, 1245207, 196609, 1, 1245208, 196609, 1, 1245209, 196609, 1, 1245210, 196609, 1, 1245211, 196609, 1, 1245212, 196609, 1, 1245213, 196609, 1, 1245214, 196609, 1, 1245215, 196609, 1, 1245216, 196609, 1, 1245217, 196609, 1, 1245218, 196609, 1, 1245219, 196609, 1, 1310755, 196609, 2, 1310754, 196609, 2, 1310753, 196609, 2, 1310752, 196609, 2, 1310751, 196609, 2, 1310750, 196609, 2, 1310749, 196609, 2, 1310748, 196609, 2, 1310747, 196609, 2, 1310746, 196609, 2, 1310745, 196609, 2, 1310744, 196609, 2, 1310743, 196609, 2, 1310742, 196609, 2, 1310741, 196609, 2, 1310740, 196609, 2, 1310739, 196609, 2, 1310738, 196609, 2, 1310737, 196609, 2, 1310736, 196609, 2, 1310735, 196609, 2, 1310734, 196609, 2, 1310733, 196609, 2, 1310732, 196609, 2, 1310731, 196609, 2, 1310730, 196609, 2, 1310729, 196609, 2, 1310728, 196609, 2, 1310727, 196609, 2, 1310726, 196609, 2, 1310725, 196609, 2, 1310724, 196609, 2, 1310723, 196609, 2, 1310722, 196609, 2, 1310721, 196609, 2, 1310720, 196609, 2)
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("3_f5aj1")]
-position = Vector2(535, 548)
-SPEED = 200.0
+position = Vector2(79, 590)
+SPEED = 100.0
 jump_height = 100.0
-jump_time_to_peak = 0.3
-jump_time_to_descent = 0.2
+jump_time_to_peak = 0.4
+jump_time_to_descent = 0.3
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-position = Vector2(-6, 48)
-zoom = Vector2(1.715, 1.715)
+zoom = Vector2(6, 6)
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="Bubilek" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2(4096, 4096)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/Bubilek"]
+texture = ExtResource("3_wynne")
+centered = false
+
+[node name="Bubilek2" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.5, 0.5)
+motion_mirroring = Vector2(4096, 4096)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/Bubilek2"]
+texture = ExtResource("4_sp87j")
+centered = false
