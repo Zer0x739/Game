@@ -1,0 +1,16 @@
+LightOccluder2D
+Sprite2D
+CanvasModulate
+PointLight2D
+DirectionalLight2D
+CollisionPolygon2D
+ParallaxLayer
+ParallaxBackground
+RigidBody2D
+Camera2D
+AnimatedSprite2D
+CollisionShape2D
+CharacterBody2D
+TileMap
+TextureRect
+Node
