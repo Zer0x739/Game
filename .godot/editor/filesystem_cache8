@@ -1,23 +1,27 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1710525229
-background.png::CompressedTexture2D::279011266115638502::1710088462::1710088462::1::::<><>::
-icon.svg::CompressedTexture2D::5223139196050524340::1710088370::1710088383::1::::<><>::
-main.tscn::PackedScene::8971671568869721800::1710525229::0::1::::<><>::uid://bq6oh7wxhqgxj::::res://assets/space_tileset.png<>uid://dr31xa6nyf6h::::res://scenes/main_character.tscn<>uid://dako1xp4fm02n::::res://assets/Nebula Red.png<>uid://by4u0o82lg6kg::::res://assets/Stars Small_1.png
-::res://assets/::1710526508
-AnimationSheet.png::CompressedTexture2D::7266091918106707826::1710089576::1710519609::1::::<><>::
-Nebula Red.png::CompressedTexture2D::7180803529694088727::1710353576::1710497390::1::::<><>::
-pointlight.webp::CompressedTexture2D::8691086527695527232::1710526508::1710526511::1::::<><>::
-space_tileset.png::CompressedTexture2D::3574302146521444479::1710351794::1710351949::1::::<><>::
-Stars Small_1.png::CompressedTexture2D::4132079658123739350::1710353576::1710497400::1::::<><>::
-tileset.png::CompressedTexture2D::6223026772191332403::1710088706::1710519681::1::::<><>::
-::res://assets/Crow Animations/::1710524647
-crow_attack.png::CompressedTexture2D::2549252639704886678::1710524643::1710524647::1::::<><>::
-crow_damage.png::CompressedTexture2D::8987644668201536464::1710524634::1710524647::1::::<><>::
-crow_death1.png::CompressedTexture2D::3849961073042757468::1710524625::1710524647::1::::<><>::
-crow_death2.png::CompressedTexture2D::2877575539232597081::1710524527::1710524647::1::::<><>::
-crow_idle.png::CompressedTexture2D::2727988326247626629::1710524508::1710524647::1::::<><>::
-crow_jump.png::CompressedTexture2D::8803951900370288639::1710524500::1710524647::1::::<><>::
-crow_walk.png::CompressedTexture2D::8827319926176534015::1710524482::1710524647::1::::<><>::
-::res://scenes/::1710525229
-main_character.gd::GDScript::-1::1710521485::0::1::::<>CharacterBody2D<>::
-main_character.tscn::PackedScene::247408668635975593::1710525229::0::1::::<><>::res://scenes/main_character.gd<>uid://be4ptl7vkwgwr::::res://assets/Crow Animations/crow_idle.png<>uid://dxox2itfs1eex::::res://assets/Crow Animations/crow_jump.png<>uid://dx1aw065losep::::res://assets/Crow Animations/crow_walk.png
+::res://::1710794736
+background.png::CompressedTexture2D::279011266115638502::1710531009::1710531009::1::::<><>::
+icon.svg::CompressedTexture2D::5223139196050524340::1710531009::1710531009::1::::<><>::
+main.tscn::PackedScene::8971671568869721800::1710794736::0::1::::<><>::uid://bq6oh7wxhqgxj::::res://assets/space_tileset.png<>uid://dr31xa6nyf6h::::res://scenes/main_character.tscn<>uid://dako1xp4fm02n::::res://assets/Nebula Red.png<>uid://by4u0o82lg6kg::::res://assets/Stars Small_1.png
+Menu.gd::GDScript::-1::1710793731::0::1::::<>Control<>::
+::res://assets/::1710794775
+AnimationSheet.png::CompressedTexture2D::7266091918106707826::1710531009::1710531009::1::::<><>::
+Nebula Red.png::CompressedTexture2D::7180803529694088727::1710531009::1710531009::1::::<><>::
+pointlight.webp::CompressedTexture2D::8691086527695527232::1710531009::1710531009::1::::<><>::
+space_tileset.png::CompressedTexture2D::3574302146521444479::1710531009::1710531009::1::::<><>::
+Stars Small_1.png::CompressedTexture2D::4132079658123739350::1710531009::1710531009::1::::<><>::
+Stay_Pixel_DEMO.ttf::FontFile::1029073886195303466::1710794770::1710794779::1::::<><>::
+tileset.png::CompressedTexture2D::6223026772191332403::1710531009::1710531009::1::::<><>::
+::res://assets/Crow Animations/::1710531009
+crow_attack.png::CompressedTexture2D::2549252639704886678::1710531009::1710531009::1::::<><>::
+crow_damage.png::CompressedTexture2D::8987644668201536464::1710531009::1710531009::1::::<><>::
+crow_death1.png::CompressedTexture2D::3849961073042757468::1710531009::1710531009::1::::<><>::
+crow_death2.png::CompressedTexture2D::2877575539232597081::1710531009::1710531009::1::::<><>::
+crow_idle.png::CompressedTexture2D::2727988326247626629::1710531009::1710531009::1::::<><>::
+crow_jump.png::CompressedTexture2D::8803951900370288639::1710531009::1710531009::1::::<><>::
+crow_walk.png::CompressedTexture2D::8827319926176534015::1710531009::1710531009::1::::<><>::
+::res://scenes/::1710794736
+main_character.gd::GDScript::-1::1710531009::0::1::::<>CharacterBody2D<>::
+main_character.tscn::PackedScene::247408668635975593::1710793682::0::1::::<><>::res://scenes/main_character.gd<>uid://be4ptl7vkwgwr::::res://assets/Crow Animations/crow_idle.png<>uid://dxox2itfs1eex::::res://assets/Crow Animations/crow_jump.png<>uid://dx1aw065losep::::res://assets/Crow Animations/crow_walk.png
+menu.tscn::PackedScene::788667149388600647::1710794736::0::1::::<><>::res://scenes/menu.gd
+menu.gd::GDScript::-1::1710794727::0::1::::<>Control<>::
