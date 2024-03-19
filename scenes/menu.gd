@@ -9,7 +9,9 @@ func _process(_delta):
 	pass
 
 func _on_start_button_pressed():
-	SceneTransition.change_scene_to_file("res://main.tscn")
+	TransitionScreen.transition()
+	await TransitionScreen.on_transition_finished	
+	get_tree().change_scene_to_file("res://scenes/main.tscn")
 	
 func _on_quit_button_pressed():
 	get_tree().quit()
