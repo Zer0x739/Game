@@ -1,3 +1,10 @@
+Timer
+Label
+CollisionShape2D
+Area2D
+AnimatedSprite2D
+Sprite2D
+CharacterBody2D
 ColorRect
 VBoxContainer
 Button
@@ -5,7 +12,6 @@ AnimationPlayer
 CanvasLayer
 Control
 LightOccluder2D
-Sprite2D
 CanvasModulate
 PointLight2D
 DirectionalLight2D
@@ -14,9 +20,6 @@ ParallaxLayer
 ParallaxBackground
 RigidBody2D
 Camera2D
-AnimatedSprite2D
-CollisionShape2D
-CharacterBody2D
 TileMap
 TextureRect
 Node
