@@ -19,13 +19,15 @@ script = ExtResource("1_nd3dx")
 [node name="ColorRect" type="ColorRect" parent="."]
 material = SubResource("ShaderMaterial_4w38q")
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -3404.0
-offset_top = -2093.0
-offset_right = 4011.0
-offset_bottom = 2070.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -3707.5
+offset_top = -2081.5
+offset_right = 3707.5
+offset_bottom = 2081.5
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -47,6 +49,8 @@ grow_vertical = 2
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 4
+auto_translate = false
+localize_numeral_system = false
 text = "RESUME
 "
 

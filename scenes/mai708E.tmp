@@ -152,3 +152,5 @@ volume_db = -1.981
 stream = ExtResource("6_ejnun")
 volume_db = -8.433
 script = ExtResource("7_7w7eg")
+
+[node name="shut_sound" type="AudioStreamPlayer2D" parent="."]

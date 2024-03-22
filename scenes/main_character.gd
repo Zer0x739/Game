@@ -9,8 +9,9 @@ extends CharacterBody2D
 @onready var jump_velocity : float = ((2.0 * jump_height) / jump_time_to_peak) * -1.0
 @onready var jump_gravity : float = ((-2.0 * jump_height) / (jump_time_to_peak * jump_time_to_peak)) * -1.0
 @onready var fall_gravity : float = ((-2.0 * jump_height) / (jump_time_to_descent * jump_time_to_descent)) * -1.0
-
 @onready var sprite_2d = $Sprite2D
+@onready var jumpSound = $jump_sound
+@onready var walkSound = $walk_sound
 
 var max_jumps = 1
 var remaining_jumps = 0
@@ -31,6 +32,7 @@ func _physics_process(delta):
 		sprite_2d.animation = "running"
 	else:
 		sprite_2d.animation = "default"
+		walkSound.play()
 	# Add the gravity.
 	if not is_on_floor():
 		velocity.y += get_gravity() * delta
@@ -39,6 +41,7 @@ func _physics_process(delta):
 	# Handle Jump.
 	if Input.is_action_just_pressed("jump") and remaining_jumps < max_jumps:
 		jump()
+		jumpSound.play()
 	elif Input.is_action_just_pressed("jump") and remaining_jumps <= max_jumps:
 		print(remaining_jumps)
 		pass
@@ -57,3 +60,5 @@ func _physics_process(delta):
 	var isLeft = velocity.x < 0
 	sprite_2d.flip_h = isLeft
 
+func is_moving():
+	return velocity != Vector2()
