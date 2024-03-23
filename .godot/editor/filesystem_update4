@@ -1,6 +1,6 @@
-res://scenes/main.tscn
-res://scenes/pause_menu.gdshader
 res://scenes/menu.tscn
+res://scenes/main_character.gd
 res://scenes/transition_screen.tscn
-res://scenes/pause_menu.tscn
 res://scenes/main_character.tscn
+res://scenes/pause_menu.tscn
+res://scenes/main.tscn
