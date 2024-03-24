@@ -92,7 +92,7 @@ theme = SubResource("Theme_ic3yq")
 theme_type_variation = &"HeaderLarge"
 theme_override_fonts/font = ExtResource("2_0r2cd")
 theme_override_font_sizes/font_size = 50
-text = "PROSKAKOVANI CTVRTYM ROCNIKEM VEZENI"
+text = "Jumpiverse"
 horizontal_alignment = 1
 
 [connection signal="pressed" from="VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
