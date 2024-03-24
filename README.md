@@ -37,7 +37,7 @@ Můžete nás kontaktovat přes Microsoft Teams.
 
 ## Videa:
 
-[[Video 1]](https://youtu.be/qVArrWyCPao)
+[[TEASER]](https://youtu.be/qVArrWyCPao)
 
 ## Recenze:
 
