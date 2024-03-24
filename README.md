@@ -22,7 +22,7 @@ Dávejte si pozor na pád z plošiny, jinak budete muset začít znovu.
 
 ## Autoři:
 
-Patrik Lengauer
+Patrik Lengauer <br>
 Tomáš Fujera
 
 ## Kontakt:
