@@ -16,7 +16,7 @@ func testEsc():
 func _on_resume_pressed():
 	resume()
 	
-func _process(delta):
+func _process(_delta):
 	testEsc()
 
 func _on_quit_pressed():

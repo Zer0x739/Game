@@ -4,8 +4,7 @@ extends CharacterBody2D
 @export var jump_height = 100.0
 @export var jump_time_to_peak = 0.5
 @export var jump_time_to_descent = 0.5
-var max_jumps = 1
-var remaining_jumps = 0
+var jumps_left = 0
 
 @onready var jump_velocity = ((2.0 * jump_height) / jump_time_to_peak) * -1.0
 @onready var jump_gravity = ((-2.0 * jump_height) / (jump_time_to_peak * jump_time_to_peak)) * -1.0
@@ -16,12 +15,6 @@ var remaining_jumps = 0
 
 func get_gravity() -> float:
 	return jump_gravity if velocity.y < 0.0 else fall_gravity
-
-func jump():
-	if remaining_jumps < max_jumps:
-		velocity.y = jump_velocity
-		remaining_jumps += 1
-		jump_sound.play()
 
 func _physics_process(delta):
 	# Animations
@@ -36,16 +29,14 @@ func _physics_process(delta):
 	# Add the gravity.
 	velocity.y += get_gravity() * delta
 
-	# Handle Jump.
 	if is_on_floor():
-		if Input.is_action_just_pressed("jump") and remaining_jumps < max_jumps:
-			jump()
-	elif not is_on_floor():
-		if Input.is_action_just_pressed("jump") and remaining_jumps < max_jumps:
-			jump()
+		jumps_left = 2
 
-	if is_on_floor():
-		remaining_jumps = 0
+	# Handle Jump.
+	if Input.is_action_just_pressed("jump") and jumps_left > 0:
+			velocity.y = jump_velocity
+			jumps_left =  jumps_left - 1
+			jump_sound.play()
 
 	# Get the input direction and handle the movement/deceleration.
 	var direction = Input.get_axis("left", "right")
@@ -54,11 +45,7 @@ func _physics_process(delta):
 	else:
 		velocity.x = move_toward(velocity.x, 0, 20)
 
-	var was_on_floor = is_on_floor()
 	move_and_slide()
-	var just_left_ledge = was_on_floor and not is_on_floor() and velocity.y >= 0
-	if just_left_ledge:
-		pass
 
 	var isLeft = velocity.x < 0
 	sprite_2d.flip_h = isLeft

@@ -20,7 +20,6 @@ TransitionScreen="*res://scenes/transition_screen.tscn"
 
 [display]
 
-window/size/mode=3
 window/size/resizable=false
 
 [input]
