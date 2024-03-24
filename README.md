@@ -42,6 +42,6 @@ Můžete nás kontaktovat pres Microsoft Teams
 
 ## Recenze:
 
-"Jumpiverse je návyková a zábavná plošinovka, která vás zabaví na celé minuty." - Zidan Zeaman
+"Jumpiverse je návyková a zábavná plošinovka, která vás zabaví na celé minuty." - Zidan Zeaman <br>
 "Jumpiverse je skvělá hra pro všechny fanoušky klasických plošinovek." - Robert Knedlik
 
