@@ -1,4 +1,4 @@
-# Jumpiverse
+![image (2)](https://github.com/Zer0x739/Game/assets/75456808/61972566-347d-4dd8-a7af-b7c5e367b969)# Jumpiverse
 ## Popis:
 
 Jumpiverse je 2D plošinovka, ve které se snažíte vyskákat co nejvýše. Hra je jednoduchá, ale návyková a vyžaduje precizní skákání a načasování. Ovládání hry je intuitivní a snadno se ho naučí i ti nejmenší hráči. Stačí stisknout tlačítko pro skok a váš hrdina se odrazí vzhůru. Ale nenechte se mýlit jednoduchostí! Cesta k vrcholu je plná překážek a pastí, které prověří vaše reflexy a smysl pro načasování.
@@ -31,9 +31,9 @@ Můžete nás kontaktovat přes Microsoft Teams.
 
 ## Snímky obrazovky:
 
-[Snímek obrazovky 1]
-[Snímek obrazovky 2]
-[Snímek obrazovky 3]
+![image (2)](https://github.com/Zer0x739/Game/assets/75456808/3e15544f-d4f8-4ef0-bcd6-e89bb5509389)
+![image](https://github.com/Zer0x739/Game/assets/75456808/2f20b59a-38ce-4d07-842a-f67c87c120ec)
+![image (1)](https://github.com/Zer0x739/Game/assets/75456808/0572e70f-af87-46c4-83b7-3263e51a90fb)
 
 ## Videa:
 
