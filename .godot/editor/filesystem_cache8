@@ -1,36 +1,38 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1711288769
-::res://assets/::1711291094
-blue-topaz-cgi-4096w.jpg::CompressedTexture2D::3338458774345544505::1711126259::1711291113::1::::<><>::
-Don_Omar_Ft_Lucenzo_Danza_Kuduro.mp3::AudioStreamMP3::3310821935069072903::1711126259::1711126259::1::::<><>::
-jump.mp3::AudioStreamMP3::2248196247319408437::1711126259::1711126259::1::::<><>::
-Nebula Red.png::CompressedTexture2D::7180803529694088727::1711126259::1711126259::1::::<><>::
-space_tileset.png::CompressedTexture2D::3574302146521444479::1711126259::1711126259::1::::<><>::
-Stars Small_1.png::CompressedTexture2D::4132079658123739350::1711126259::1711126259::1::::<><>::
-Stay_Pixel_DEMO.ttf::FontFile::1029073886195303466::1711126259::1711126259::1::::<><>::
-walking.mp3::AudioStreamMP3::6324952918307487053::1711126259::1711225150::1::::<><>::
-::res://assets/Crow Animations/::1711126259
-crow_attack.png::CompressedTexture2D::2549252639704886678::1711126259::1711126259::1::::<><>::
-crow_damage.png::CompressedTexture2D::8987644668201536464::1711126259::1711126259::1::::<><>::
-crow_death1.png::CompressedTexture2D::3849961073042757468::1711126259::1711126259::1::::<><>::
-crow_death2.png::CompressedTexture2D::2877575539232597081::1711126259::1711126259::1::::<><>::
-crow_idle.png::CompressedTexture2D::2727988326247626629::1711126259::1711126259::1::::<><>::
-crow_jump.png::CompressedTexture2D::8803951900370288639::1711126259::1711126259::1::::<><>::
-crow_walk.png::CompressedTexture2D::8827319926176534015::1711126259::1711126259::1::::<><>::
-::res://scenes/::1711290747
-game_sound.gd::GDScript::-1::1711126259::0::1::::<>AudioStreamPlayer2D<>::
-jumping_1-6452.mp3::AudioStreamMP3::807770565569546605::1711126259::1711219522::1::::<><>::
-main.gd::GDScript::-1::1711193245::0::1::::<>Node<>::
-main.tscn::PackedScene::8971671568869721800::1711290113::0::1::::<><>::res://scenes/main.gd<>uid://bq6oh7wxhqgxj::::res://assets/space_tileset.png<>uid://dr31xa6nyf6h::::res://scenes/main_character.tscn<>uid://by4u0o82lg6kg::::res://assets/Stars Small_1.png<>uid://bntf6tcjklw7j::::res://assets/blue-topaz-cgi-4096w.jpg<>uid://bnf10vdwuqajv::::res://assets/Don_Omar_Ft_Lucenzo_Danza_Kuduro.mp3<>uid://bmwihrsxvqhu0::::res://scenes/pause_menu.tscn<>res://scenes/game_sound.gd
-main_character.gd::GDScript::-1::1711288836::0::1::::<>CharacterBody2D<>::
-main_character.tscn::PackedScene::247408668635975593::1711290113::0::1::::<><>::res://scenes/main_character.gd<>uid://be4ptl7vkwgwr::::res://assets/Crow Animations/crow_idle.png<>uid://dxox2itfs1eex::::res://assets/Crow Animations/crow_jump.png<>uid://dx1aw065losep::::res://assets/Crow Animations/crow_walk.png<>uid://7bbp1cmd1dmr::::res://assets/jump.mp3<>uid://cwd4byl7xivw4::::res://assets/walking.mp3<>res://scenes/walk_sound.gd
-menu.gd::GDScript::-1::1711126259::0::1::::<>Control<>::
-menu.tscn::PackedScene::788667149388600647::1711290113::0::1::::<><>::res://scenes/menu.gd<>uid://owqxxho664nu::::res://assets/Stay_Pixel_DEMO.ttf
-pause_menu.gd::GDScript::-1::1711282187::0::1::::<>Control<>::
-pause_menu.gdshader::Shader::-1::1711219143::0::1::::<><>::
-pause_menu.tscn::PackedScene::3274602276215418125::1711290113::0::1::::<><>::res://scenes/pause_menu.gdshader<>res://scenes/pause_menu.gd<>uid://owqxxho664nu::::res://assets/Stay_Pixel_DEMO.ttf
-ending_screen.tscn::PackedScene::19158522685426048::1711290708::0::1::::<><>::
-ending_screen.gd::GDScript::-1::1711290747::0::1::::<>Control<>::
-transition_screen.gd::GDScript::-1::1711126259::0::1::::<>CanvasLayer<>::
-transition_screen.tscn::PackedScene::7566591952380107644::1711287376::0::1::::<><>::res://scenes/transition_screen.gd
-walk_sound.gd::GDScript::-1::1711126259::0::1::::<>AudioStreamPlayer<>::
+::res://::1711294304
+README.md::TextFile::-1::1711292864::0::1::::<><>::
+::res://assets/::1711294416
+blue-topaz-cgi-4096w.jpg::CompressedTexture2D::3338458774345544505::1711292864::1711292864::1::::<><>::
+Don_Omar_Ft_Lucenzo_Danza_Kuduro.mp3::AudioStreamMP3::3310821935069072903::1711292864::1711292864::1::::<><>::
+hell.png::CompressedTexture2D::4422683162443131288::1711294416::1711294416::1::::<><>::
+jump.mp3::AudioStreamMP3::2248196247319408437::1711292864::1711292864::1::::<><>::
+jumping_1-6452.mp3::AudioStreamMP3::807770565569546605::1711292864::1711294305::1::::<><>::
+Nebula Red.png::CompressedTexture2D::7180803529694088727::1711292864::1711292864::1::::<><>::
+space_tileset.png::CompressedTexture2D::3574302146521444479::1711292864::1711292864::1::::<><>::
+Stars Small_1.png::CompressedTexture2D::4132079658123739350::1711292864::1711292864::1::::<><>::
+Stay_Pixel_DEMO.ttf::FontFile::1029073886195303466::1711292864::1711292864::1::::<><>::
+walking.mp3::AudioStreamMP3::6324952918307487053::1711292864::1711292864::1::::<><>::
+::res://assets/Crow Animations/::1710530891
+crow_attack.png::CompressedTexture2D::2549252639704886678::1711292864::1711292864::1::::<><>::
+crow_damage.png::CompressedTexture2D::8987644668201536464::1711292864::1711292864::1::::<><>::
+crow_death1.png::CompressedTexture2D::3849961073042757468::1711292864::1711292864::1::::<><>::
+crow_death2.png::CompressedTexture2D::2877575539232597081::1711292864::1711292864::1::::<><>::
+crow_idle.png::CompressedTexture2D::2727988326247626629::1711292864::1711292864::1::::<><>::
+crow_jump.png::CompressedTexture2D::8803951900370288639::1711292864::1711292864::1::::<><>::
+crow_walk.png::CompressedTexture2D::8827319926176534015::1711292864::1711292864::1::::<><>::
+::res://scenes/::1711294328
+gameover.gd::GDScript::-1::1711292864::0::1::::<>CanvasLayer<>::
+gameover.tscn::PackedScene::4422703540807964101::1711294309::0::1::::<><>::res://scenes/gameover.gd
+game_sound.gd::GDScript::-1::1711292864::0::1::::<>AudioStreamPlayer2D<>::
+main.gd::GDScript::-1::1711292864::0::1::::<>Node<>::
+main.tscn::PackedScene::8971671568869721800::1711294308::0::1::::<><>::res://scenes/main.gd<>uid://bq6oh7wxhqgxj::::res://assets/space_tileset.png<>uid://dr31xa6nyf6h::::res://scenes/main_character.tscn<>uid://by4u0o82lg6kg::::res://assets/Stars Small_1.png<>uid://bntf6tcjklw7j::::res://assets/blue-topaz-cgi-4096w.jpg<>uid://bnf10vdwuqajv::::res://assets/Don_Omar_Ft_Lucenzo_Danza_Kuduro.mp3<>uid://bmwihrsxvqhu0::::res://scenes/pause_menu.tscn<>res://scenes/game_sound.gd
+main_character.gd::GDScript::-1::1711294279::0::1::::<>CharacterBody2D<>::
+main_character.tscn::PackedScene::247408668635975593::1711294328::0::1::::<><>::res://scenes/main_character.gd<>uid://be4ptl7vkwgwr::::res://assets/Crow Animations/crow_idle.png<>uid://dxox2itfs1eex::::res://assets/Crow Animations/crow_jump.png<>uid://dx1aw065losep::::res://assets/Crow Animations/crow_walk.png<>uid://7bbp1cmd1dmr::::res://assets/jump.mp3<>uid://cwd4byl7xivw4::::res://assets/walking.mp3<>res://scenes/walk_sound.gd
+menu.gd::GDScript::-1::1711292864::0::1::::<>Control<>::
+menu.tscn::PackedScene::788667149388600647::1711294308::0::1::::<><>::res://scenes/menu.gd<>uid://owqxxho664nu::::res://assets/Stay_Pixel_DEMO.ttf
+pause_menu.gd::GDScript::-1::1711292864::0::1::::<>Control<>::
+pause_menu.gdshader::Shader::-1::1711292864::0::1::::<><>::
+pause_menu.tscn::PackedScene::3274602276215418125::1711294308::0::1::::<><>::res://scenes/pause_menu.gdshader<>res://scenes/pause_menu.gd<>uid://owqxxho664nu::::res://assets/Stay_Pixel_DEMO.ttf
+transition_screen.gd::GDScript::-1::1711292864::0::1::::<>CanvasLayer<>::
+transition_screen.tscn::PackedScene::7566591952380107644::1711292864::0::1::::<><>::res://scenes/transition_screen.gd
+walk_sound.gd::GDScript::-1::1711292864::0::1::::<>AudioStreamPlayer<>::
