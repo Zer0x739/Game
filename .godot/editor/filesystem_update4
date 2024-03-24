@@ -1,5 +1,5 @@
-res://scenes/menu.tscn
-res://scenes/main_character.gd
 res://scenes/main.tscn
+res://scenes/main_character.gd
 res://scenes/main_character.tscn
+res://scenes/menu.tscn
 res://scenes/pause_menu.tscn
