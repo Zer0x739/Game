@@ -1,12 +1,12 @@
-Button
+TextureRect
 CanvasLayer
+Button
+Label
 Sprite2D
 AnimationPlayer
 Timer
-TextureRect
 ParallaxLayer
 ParallaxBackground
-Label
 VBoxContainer
 ColorRect
 PanelContainer

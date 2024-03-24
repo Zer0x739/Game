@@ -1,8 +1,5 @@
-res://scenes/main_character.tscn
-res://scenes/main_character.gd
 res://scenes/menu.tscn
-res://scenes/pause_menu.tscn
+res://scenes/main_character.gd
 res://scenes/main.tscn
-res://scenes/gameover.tscn
-res://scenes/walk_sound.gd
-res://scenes/pause_menu.gd
+res://scenes/main_character.tscn
+res://scenes/pause_menu.tscn
