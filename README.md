@@ -1,4 +1,4 @@
-![image (2)](https://github.com/Zer0x739/Game/assets/75456808/61972566-347d-4dd8-a7af-b7c5e367b969)# Jumpiverse
+# Jumpiverse
 ## Popis:
 
 Jumpiverse je 2D plošinovka, ve které se snažíte vyskákat co nejvýše. Hra je jednoduchá, ale návyková a vyžaduje precizní skákání a načasování. Ovládání hry je intuitivní a snadno se ho naučí i ti nejmenší hráči. Stačí stisknout tlačítko pro skok a váš hrdina se odrazí vzhůru. Ale nenechte se mýlit jednoduchostí! Cesta k vrcholu je plná překážek a pastí, které prověří vaše reflexy a smysl pro načasování.
