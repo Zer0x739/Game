@@ -1,5 +1,5 @@
 # [TRAILER](https://www.youtube.com)
-## Trailer na hru
+## Jedná se o krátký trailer, který představuje hru.
 # Autoři
 Patrik Lengauer <br>
 Tomáš Fujera
